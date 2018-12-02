@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B52A6D5A28F636B5F2315BC /* Pods_DonaTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7558DC2CC1AD961508FDD849 /* Pods_DonaTracker.framework */; };
+		585BB6A421B2033F00F0747C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585BB6A321B2033F00F0747C /* AppDelegate.swift */; };
+		585BB6A921B2033F00F0747C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 585BB6A721B2033F00F0747C /* Main.storyboard */; settings = {ASSET_TAGS = (label, ); }; };
+		585BB6AB21B2034000F0747C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 585BB6AA21B2034000F0747C /* Assets.xcassets */; };
+		585BB6AE21B2034000F0747C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 585BB6AC21B2034000F0747C /* LaunchScreen.storyboard */; };
+		585BB6B921B2034000F0747C /* DonaTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585BB6B821B2034000F0747C /* DonaTrackerTests.swift */; };
+		585BB6C421B2034000F0747C /* DonaTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585BB6C321B2034000F0747C /* DonaTrackerUITests.swift */; };
+		585BB6D421B20A8C00F0747C /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585BB6D321B20A8C00F0747C /* SignUpVC.swift */; };
+		585BB6D621B20ACD00F0747C /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585BB6D521B20ACD00F0747C /* HomeVC.swift */; };
+		585BB6D821B20B0900F0747C /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585BB6D721B20B0900F0747C /* LoginVC.swift */; };
+		585BB6DC21B31A9D00F0747C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 585BB6DB21B31A9D00F0747C /* GoogleService-Info.plist */; };
+		58FAE35521B3428000583CEB /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FAE35421B3428000583CEB /* AlertController.swift */; };
+		726D6C7FEEE90CB96A895A54 /* Pods_DonaTrackerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 992B6A9A1EF30D07E626C8A4 /* Pods_DonaTrackerUITests.framework */; };
+		A5B5EE86A8FB9BC5E98540A5 /* Pods_DonaTrackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D91BAFD0CDD3E4341D7507D3 /* Pods_DonaTrackerTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		585BB6B521B2034000F0747C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 585BB69821B2033F00F0747C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 585BB69F21B2033F00F0747C;
+			remoteInfo = DonaTracker;
+		};
+		585BB6C021B2034000F0747C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 585BB69821B2033F00F0747C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 585BB69F21B2033F00F0747C;
+			remoteInfo = DonaTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17CD6C8EE0D16F2249BDB18F /* Pods-DonaTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonaTracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DonaTracker/Pods-DonaTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		358A83B8A5E3F0EC23962295 /* Pods-DonaTrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonaTrackerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DonaTrackerUITests/Pods-DonaTrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		51327033D4B4B28233B33688 /* Pods-DonaTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonaTracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-DonaTracker/Pods-DonaTracker.release.xcconfig"; sourceTree = "<group>"; };
+		585BB6A021B2033F00F0747C /* DonaTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DonaTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		585BB6A321B2033F00F0747C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		585BB6A821B2033F00F0747C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		585BB6AA21B2034000F0747C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		585BB6AD21B2034000F0747C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		585BB6AF21B2034000F0747C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		585BB6B421B2034000F0747C /* DonaTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DonaTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		585BB6B821B2034000F0747C /* DonaTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonaTrackerTests.swift; sourceTree = "<group>"; };
+		585BB6BA21B2034000F0747C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		585BB6BF21B2034000F0747C /* DonaTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DonaTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		585BB6C321B2034000F0747C /* DonaTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonaTrackerUITests.swift; sourceTree = "<group>"; };
+		585BB6C521B2034000F0747C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		585BB6D321B20A8C00F0747C /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		585BB6D521B20ACD00F0747C /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		585BB6D721B20B0900F0747C /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		585BB6DB21B31A9D00F0747C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		58FAE35421B3428000583CEB /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
+		7558DC2CC1AD961508FDD849 /* Pods_DonaTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DonaTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		814FEDF86DFB27638814D723 /* Pods-DonaTrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonaTrackerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DonaTrackerUITests/Pods-DonaTrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8E2909C5FB2B75D3513EBCC6 /* Pods-DonaTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonaTrackerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DonaTrackerTests/Pods-DonaTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		992B6A9A1EF30D07E626C8A4 /* Pods_DonaTrackerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DonaTrackerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D91BAFD0CDD3E4341D7507D3 /* Pods_DonaTrackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DonaTrackerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2E07AF65B06FADBEF27C95 /* Pods-DonaTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonaTrackerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DonaTrackerTests/Pods-DonaTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		585BB69D21B2033F00F0747C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B52A6D5A28F636B5F2315BC /* Pods_DonaTracker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585BB6B121B2034000F0747C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5B5EE86A8FB9BC5E98540A5 /* Pods_DonaTrackerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585BB6BC21B2034000F0747C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				726D6C7FEEE90CB96A895A54 /* Pods_DonaTrackerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		585BB69721B2033F00F0747C = {
+			isa = PBXGroup;
+			children = (
+				585BB6A221B2033F00F0747C /* DonaTracker */,
+				585BB6B721B2034000F0747C /* DonaTrackerTests */,
+				585BB6C221B2034000F0747C /* DonaTrackerUITests */,
+				585BB6A121B2033F00F0747C /* Products */,
+				A1443363187F18907CABE45B /* Pods */,
+				DD411EED975E70EBD7F45C48 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		585BB6A121B2033F00F0747C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				585BB6A021B2033F00F0747C /* DonaTracker.app */,
+				585BB6B421B2034000F0747C /* DonaTrackerTests.xctest */,
+				585BB6BF21B2034000F0747C /* DonaTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		585BB6A221B2033F00F0747C /* DonaTracker */ = {
+			isa = PBXGroup;
+			children = (
+				585BB6A321B2033F00F0747C /* AppDelegate.swift */,
+				585BB6A721B2033F00F0747C /* Main.storyboard */,
+				585BB6D721B20B0900F0747C /* LoginVC.swift */,
+				58FAE35421B3428000583CEB /* AlertController.swift */,
+				585BB6D321B20A8C00F0747C /* SignUpVC.swift */,
+				585BB6D521B20ACD00F0747C /* HomeVC.swift */,
+				585BB6AA21B2034000F0747C /* Assets.xcassets */,
+				585BB6AC21B2034000F0747C /* LaunchScreen.storyboard */,
+				585BB6AF21B2034000F0747C /* Info.plist */,
+				585BB6DB21B31A9D00F0747C /* GoogleService-Info.plist */,
+			);
+			path = DonaTracker;
+			sourceTree = "<group>";
+		};
+		585BB6B721B2034000F0747C /* DonaTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				585BB6B821B2034000F0747C /* DonaTrackerTests.swift */,
+				585BB6BA21B2034000F0747C /* Info.plist */,
+			);
+			path = DonaTrackerTests;
+			sourceTree = "<group>";
+		};
+		585BB6C221B2034000F0747C /* DonaTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				585BB6C321B2034000F0747C /* DonaTrackerUITests.swift */,
+				585BB6C521B2034000F0747C /* Info.plist */,
+			);
+			path = DonaTrackerUITests;
+			sourceTree = "<group>";
+		};
+		A1443363187F18907CABE45B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17CD6C8EE0D16F2249BDB18F /* Pods-DonaTracker.debug.xcconfig */,
+				51327033D4B4B28233B33688 /* Pods-DonaTracker.release.xcconfig */,
+				8E2909C5FB2B75D3513EBCC6 /* Pods-DonaTrackerTests.debug.xcconfig */,
+				EC2E07AF65B06FADBEF27C95 /* Pods-DonaTrackerTests.release.xcconfig */,
+				814FEDF86DFB27638814D723 /* Pods-DonaTrackerUITests.debug.xcconfig */,
+				358A83B8A5E3F0EC23962295 /* Pods-DonaTrackerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DD411EED975E70EBD7F45C48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7558DC2CC1AD961508FDD849 /* Pods_DonaTracker.framework */,
+				D91BAFD0CDD3E4341D7507D3 /* Pods_DonaTrackerTests.framework */,
+				992B6A9A1EF30D07E626C8A4 /* Pods_DonaTrackerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		585BB69F21B2033F00F0747C /* DonaTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 585BB6C821B2034000F0747C /* Build configuration list for PBXNativeTarget "DonaTracker" */;
+			buildPhases = (
+				38207925244CE4E1AB69D6A0 /* [CP] Check Pods Manifest.lock */,
+				585BB69C21B2033F00F0747C /* Sources */,
+				585BB69D21B2033F00F0747C /* Frameworks */,
+				585BB69E21B2033F00F0747C /* Resources */,
+				F008B0294F49A59C8F4EF73C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DonaTracker;
+			productName = DonaTracker;
+			productReference = 585BB6A021B2033F00F0747C /* DonaTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		585BB6B321B2034000F0747C /* DonaTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 585BB6CB21B2034000F0747C /* Build configuration list for PBXNativeTarget "DonaTrackerTests" */;
+			buildPhases = (
+				6EA352394E6B3F379EB2368D /* [CP] Check Pods Manifest.lock */,
+				585BB6B021B2034000F0747C /* Sources */,
+				585BB6B121B2034000F0747C /* Frameworks */,
+				585BB6B221B2034000F0747C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				585BB6B621B2034000F0747C /* PBXTargetDependency */,
+			);
+			name = DonaTrackerTests;
+			productName = DonaTrackerTests;
+			productReference = 585BB6B421B2034000F0747C /* DonaTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		585BB6BE21B2034000F0747C /* DonaTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 585BB6CE21B2034000F0747C /* Build configuration list for PBXNativeTarget "DonaTrackerUITests" */;
+			buildPhases = (
+				1F5CD01C392B1C96A70C5CAA /* [CP] Check Pods Manifest.lock */,
+				585BB6BB21B2034000F0747C /* Sources */,
+				585BB6BC21B2034000F0747C /* Frameworks */,
+				585BB6BD21B2034000F0747C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				585BB6C121B2034000F0747C /* PBXTargetDependency */,
+			);
+			name = DonaTrackerUITests;
+			productName = DonaTrackerUITests;
+			productReference = 585BB6BF21B2034000F0747C /* DonaTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		585BB69821B2033F00F0747C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					label,
+				);
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = OGBK;
+				TargetAttributes = {
+					585BB69F21B2033F00F0747C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					585BB6B321B2034000F0747C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 585BB69F21B2033F00F0747C;
+					};
+					585BB6BE21B2034000F0747C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 585BB69F21B2033F00F0747C;
+					};
+				};
+			};
+			buildConfigurationList = 585BB69B21B2033F00F0747C /* Build configuration list for PBXProject "DonaTracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 585BB69721B2033F00F0747C;
+			productRefGroup = 585BB6A121B2033F00F0747C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				585BB69F21B2033F00F0747C /* DonaTracker */,
+				585BB6B321B2034000F0747C /* DonaTrackerTests */,
+				585BB6BE21B2034000F0747C /* DonaTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		585BB69E21B2033F00F0747C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585BB6AE21B2034000F0747C /* LaunchScreen.storyboard in Resources */,
+				585BB6DC21B31A9D00F0747C /* GoogleService-Info.plist in Resources */,
+				585BB6AB21B2034000F0747C /* Assets.xcassets in Resources */,
+				585BB6A921B2033F00F0747C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585BB6B221B2034000F0747C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585BB6BD21B2034000F0747C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F5CD01C392B1C96A70C5CAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DonaTrackerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38207925244CE4E1AB69D6A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DonaTracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EA352394E6B3F379EB2368D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DonaTrackerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F008B0294F49A59C8F4EF73C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DonaTracker/Pods-DonaTracker-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DonaTracker/Pods-DonaTracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		585BB69C21B2033F00F0747C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585BB6D621B20ACD00F0747C /* HomeVC.swift in Sources */,
+				58FAE35521B3428000583CEB /* AlertController.swift in Sources */,
+				585BB6D421B20A8C00F0747C /* SignUpVC.swift in Sources */,
+				585BB6D821B20B0900F0747C /* LoginVC.swift in Sources */,
+				585BB6A421B2033F00F0747C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585BB6B021B2034000F0747C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585BB6B921B2034000F0747C /* DonaTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585BB6BB21B2034000F0747C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585BB6C421B2034000F0747C /* DonaTrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		585BB6B621B2034000F0747C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 585BB69F21B2033F00F0747C /* DonaTracker */;
+			targetProxy = 585BB6B521B2034000F0747C /* PBXContainerItemProxy */;
+		};
+		585BB6C121B2034000F0747C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 585BB69F21B2033F00F0747C /* DonaTracker */;
+			targetProxy = 585BB6C021B2034000F0747C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		585BB6A721B2033F00F0747C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				585BB6A821B2033F00F0747C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		585BB6AC21B2034000F0747C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				585BB6AD21B2034000F0747C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		585BB6C621B2034000F0747C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		585BB6C721B2034000F0747C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		585BB6C921B2034000F0747C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17CD6C8EE0D16F2249BDB18F /* Pods-DonaTracker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DonaTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		585BB6CA21B2034000F0747C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51327033D4B4B28233B33688 /* Pods-DonaTracker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DonaTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		585BB6CC21B2034000F0747C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E2909C5FB2B75D3513EBCC6 /* Pods-DonaTrackerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DonaTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OGBK.DonaTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DonaTracker.app/DonaTracker";
+			};
+			name = Debug;
+		};
+		585BB6CD21B2034000F0747C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC2E07AF65B06FADBEF27C95 /* Pods-DonaTrackerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DonaTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OGBK.DonaTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DonaTracker.app/DonaTracker";
+			};
+			name = Release;
+		};
+		585BB6CF21B2034000F0747C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 814FEDF86DFB27638814D723 /* Pods-DonaTrackerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DonaTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OGBK.DonaTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DonaTracker;
+			};
+			name = Debug;
+		};
+		585BB6D021B2034000F0747C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 358A83B8A5E3F0EC23962295 /* Pods-DonaTrackerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DonaTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OGBK.DonaTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DonaTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		585BB69B21B2033F00F0747C /* Build configuration list for PBXProject "DonaTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				585BB6C621B2034000F0747C /* Debug */,
+				585BB6C721B2034000F0747C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		585BB6C821B2034000F0747C /* Build configuration list for PBXNativeTarget "DonaTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				585BB6C921B2034000F0747C /* Debug */,
+				585BB6CA21B2034000F0747C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		585BB6CB21B2034000F0747C /* Build configuration list for PBXNativeTarget "DonaTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				585BB6CC21B2034000F0747C /* Debug */,
+				585BB6CD21B2034000F0747C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		585BB6CE21B2034000F0747C /* Build configuration list for PBXNativeTarget "DonaTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				585BB6CF21B2034000F0747C /* Debug */,
+				585BB6D021B2034000F0747C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 585BB69821B2033F00F0747C /* Project object */;
+}
